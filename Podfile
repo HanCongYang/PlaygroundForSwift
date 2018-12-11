@@ -4,6 +4,7 @@ target 'PlaygroundForSwift' do
 
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
+  pod 'SQLite.swift', '~> 0.11.5'
   
   target 'PlaygroundForSwiftTests' do
     inherit! :search_paths
