@@ -7,10 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1101FBD121BF8BBD006F4F3F /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101FBD021BF8BBD006F4F3F /* KVOViewController.swift */; };
 		111645582182A3E6006A507E /* CurryingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111645572182A3E6006A507E /* CurryingViewController.swift */; };
 		11264EBB21B4DBA10081E56E /* RxSwiftObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */; };
 		113D530221A7F3B20040381F /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D530121A7F3B20040381F /* EnumViewController.swift */; };
 		11738C2021883629008ABC9A /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11738C1F21883629008ABC9A /* ClassViewController.swift */; };
+		1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */; };
+		11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BCC21C9D93300038653 /* RxRootViewController.swift */; };
+		11AB1BCF21C9DADF00038653 /* RxHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BCE21C9DADF00038653 /* RxHomeViewController.swift */; };
+		11AB1BD421C9DB4C00038653 /* RxAmbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BD321C9DB4C00038653 /* RxAmbViewController.swift */; };
+		11AB1BD621C9DB9500038653 /* amb.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BD521C9DB9500038653 /* amb.png */; };
+		11AB1BD821C9E0E800038653 /* RxBufferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BD721C9E0E800038653 /* RxBufferViewController.swift */; };
+		11AB1BDA21C9E1BB00038653 /* buffer.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BD921C9E1BB00038653 /* buffer.png */; };
+		11AB1BDC21C9EC4A00038653 /* RxCatchErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BDB21C9EC4A00038653 /* RxCatchErrorViewController.swift */; };
+		11AB1BDE21C9ED0E00038653 /* catchError.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BDD21C9ED0E00038653 /* catchError.png */; };
+		11AB1BE021CA124900038653 /* concat.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BDF21CA124800038653 /* concat.png */; };
+		11AB1BE221CA128000038653 /* RxConcatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BE121CA128000038653 /* RxConcatViewController.swift */; };
+		11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BE421CA1CF700038653 /* RxBehaviorSubjectViewController.swift */; };
+		11AB1BE821CA1D3D00038653 /* BehaviorSubjectB.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BE621CA1D3C00038653 /* BehaviorSubjectB.png */; };
+		11AB1BE921CA1D3D00038653 /* BehaviorSubjectA.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BE721CA1D3C00038653 /* BehaviorSubjectA.png */; };
+		11AB1BED21CA223A00038653 /* ScaledHeightImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BEC21CA223A00038653 /* ScaledHeightImageView.swift */; };
+		11AB1BEF21CA2F4300038653 /* AsyncSubjectA.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BEE21CA2F4300038653 /* AsyncSubjectA.png */; };
+		11AB1BF121CA2F6500038653 /* AsyncSubjectB.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB1BF021CA2F6500038653 /* AsyncSubjectB.png */; };
+		11AB1BF321CA2FB300038653 /* RxAsyncSubject ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF221CA2FB300038653 /* RxAsyncSubject ViewController.swift */; };
+		11AB1BF521CA31CA00038653 /* RxVariableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF421CA31CA00038653 /* RxVariableViewController.swift */; };
+		11AB1BF721CA35F600038653 /* RxBehaviorRelayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */; };
+		11AB1BF921CA3A8E00038653 /* SwiftDocumentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF821CA3A8E00038653 /* SwiftDocumentHomeViewController.swift */; };
+		11AB1BFB21CA3B3800038653 /* DocCollectionTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */; };
+		11AB1BFD21CA3B4C00038653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BFC21CA3B4B00038653 /* BaseViewController.swift */; };
 		11C5AC4C21770BF0001E006C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC4B21770BF0001E006C /* AppDelegate.swift */; };
 		11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC4D21770BF0001E006C /* ViewController.swift */; };
 		11C5AC5121770BF0001E006C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C5AC4F21770BF0001E006C /* Main.storyboard */; };
@@ -49,10 +73,34 @@
 /* Begin PBXFileReference section */
 		06F0A1297DE00C5DA97AF22D /* Pods_PlaygroundForSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaygroundForSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F1C3A032BCA6DA2644B784 /* Pods-PlaygroundForSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundForSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaygroundForSwiftUITests/Pods-PlaygroundForSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1101FBD021BF8BBD006F4F3F /* KVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
 		111645572182A3E6006A507E /* CurryingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurryingViewController.swift; sourceTree = "<group>"; };
 		11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftObservableViewController.swift; sourceTree = "<group>"; };
 		113D530121A7F3B20040381F /* EnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
 		11738C1F21883629008ABC9A /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWExtensionsViewController.swift; sourceTree = "<group>"; };
+		11AB1BCC21C9D93300038653 /* RxRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRootViewController.swift; sourceTree = "<group>"; };
+		11AB1BCE21C9DADF00038653 /* RxHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxHomeViewController.swift; sourceTree = "<group>"; };
+		11AB1BD321C9DB4C00038653 /* RxAmbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAmbViewController.swift; sourceTree = "<group>"; };
+		11AB1BD521C9DB9500038653 /* amb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amb.png; sourceTree = "<group>"; };
+		11AB1BD721C9E0E800038653 /* RxBufferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBufferViewController.swift; sourceTree = "<group>"; };
+		11AB1BD921C9E1BB00038653 /* buffer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buffer.png; sourceTree = "<group>"; };
+		11AB1BDB21C9EC4A00038653 /* RxCatchErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCatchErrorViewController.swift; sourceTree = "<group>"; };
+		11AB1BDD21C9ED0E00038653 /* catchError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catchError.png; sourceTree = "<group>"; };
+		11AB1BDF21CA124800038653 /* concat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concat.png; sourceTree = "<group>"; };
+		11AB1BE121CA128000038653 /* RxConcatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxConcatViewController.swift; sourceTree = "<group>"; };
+		11AB1BE421CA1CF700038653 /* RxBehaviorSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBehaviorSubjectViewController.swift; sourceTree = "<group>"; };
+		11AB1BE621CA1D3C00038653 /* BehaviorSubjectB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BehaviorSubjectB.png; sourceTree = "<group>"; };
+		11AB1BE721CA1D3C00038653 /* BehaviorSubjectA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BehaviorSubjectA.png; sourceTree = "<group>"; };
+		11AB1BEC21CA223A00038653 /* ScaledHeightImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledHeightImageView.swift; sourceTree = "<group>"; };
+		11AB1BEE21CA2F4300038653 /* AsyncSubjectA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsyncSubjectA.png; sourceTree = "<group>"; };
+		11AB1BF021CA2F6500038653 /* AsyncSubjectB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsyncSubjectB.png; sourceTree = "<group>"; };
+		11AB1BF221CA2FB300038653 /* RxAsyncSubject ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxAsyncSubject ViewController.swift"; sourceTree = "<group>"; };
+		11AB1BF421CA31CA00038653 /* RxVariableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxVariableViewController.swift; sourceTree = "<group>"; };
+		11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBehaviorRelayViewController.swift; sourceTree = "<group>"; };
+		11AB1BF821CA3A8E00038653 /* SwiftDocumentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocumentHomeViewController.swift; sourceTree = "<group>"; };
+		11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCollectionTypesViewController.swift; sourceTree = "<group>"; };
+		11AB1BFC21CA3B4B00038653 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		11C5AC4821770BF0001E006C /* PlaygroundForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C5AC4B21770BF0001E006C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11C5AC4D21770BF0001E006C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +157,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1101FBCF21BF8B8D006F4F3F /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				1101FBD021BF8BBD006F4F3F /* KVOViewController.swift */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
 		111645562182A3D2006A507E /* Tips */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +179,56 @@
 				11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */,
 			);
 			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		11AB1BCA21C9D90D00038653 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				11AB1BD221C9DB3500038653 /* Source */,
+				11AB1BCB21C9D92100038653 /* RxSwiftCommon */,
+				11AB1BCE21C9DADF00038653 /* RxHomeViewController.swift */,
+				11AB1BD321C9DB4C00038653 /* RxAmbViewController.swift */,
+				11AB1BD721C9E0E800038653 /* RxBufferViewController.swift */,
+				11AB1BDB21C9EC4A00038653 /* RxCatchErrorViewController.swift */,
+				11AB1BE121CA128000038653 /* RxConcatViewController.swift */,
+				11AB1BE421CA1CF700038653 /* RxBehaviorSubjectViewController.swift */,
+				11AB1BF221CA2FB300038653 /* RxAsyncSubject ViewController.swift */,
+				11AB1BF421CA31CA00038653 /* RxVariableViewController.swift */,
+				11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		11AB1BCB21C9D92100038653 /* RxSwiftCommon */ = {
+			isa = PBXGroup;
+			children = (
+				11AB1BCC21C9D93300038653 /* RxRootViewController.swift */,
+			);
+			path = RxSwiftCommon;
+			sourceTree = "<group>";
+		};
+		11AB1BD221C9DB3500038653 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				11AB1BEE21CA2F4300038653 /* AsyncSubjectA.png */,
+				11AB1BF021CA2F6500038653 /* AsyncSubjectB.png */,
+				11AB1BE721CA1D3C00038653 /* BehaviorSubjectA.png */,
+				11AB1BE621CA1D3C00038653 /* BehaviorSubjectB.png */,
+				11AB1BD521C9DB9500038653 /* amb.png */,
+				11AB1BD921C9E1BB00038653 /* buffer.png */,
+				11AB1BDD21C9ED0E00038653 /* catchError.png */,
+				11AB1BDF21CA124800038653 /* concat.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		11AB1BEB21CA222900038653 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				11AB1BEC21CA223A00038653 /* ScaledHeightImageView.swift */,
+				11AB1BFC21CA3B4B00038653 /* BaseViewController.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		11C5AC3F21770BF0001E006C = {
@@ -150,6 +256,9 @@
 		11C5AC4A21770BF0001E006C /* PlaygroundForSwift */ = {
 			isa = PBXGroup;
 			children = (
+				11AB1BEB21CA222900038653 /* Common */,
+				11AB1BCA21C9D90D00038653 /* RxSwift */,
+				1101FBCF21BF8B8D006F4F3F /* KVO */,
 				11D1FA1A21B4B53D001DAA63 /* Third */,
 				111645562182A3D2006A507E /* Tips */,
 				11C5AC85217756B8001E006C /* Temp */,
@@ -186,6 +295,7 @@
 		11C5AC7921770CC0001E006C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,6 +303,8 @@
 		11C5AC7A21770CCE001E006C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				11AB1BF821CA3A8E00038653 /* SwiftDocumentHomeViewController.swift */,
+				11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */,
 				11C5AC7B2177177B001E006C /* StringsAndCharactersViewController.swift */,
 				11C5AC7F2177186F001E006C /* StructuresAndClassesViewController.swift */,
 				11C5AC8121771908001E006C /* AccessControlViewController.swift */,
@@ -351,8 +463,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AB1BDE21C9ED0E00038653 /* catchError.png in Resources */,
+				11AB1BEF21CA2F4300038653 /* AsyncSubjectA.png in Resources */,
+				11AB1BE821CA1D3D00038653 /* BehaviorSubjectB.png in Resources */,
 				11C5AC5621770BF1001E006C /* LaunchScreen.storyboard in Resources */,
 				11C5AC5321770BF1001E006C /* Assets.xcassets in Resources */,
+				11AB1BF121CA2F6500038653 /* AsyncSubjectB.png in Resources */,
+				11AB1BDA21C9E1BB00038653 /* buffer.png in Resources */,
+				11AB1BE021CA124900038653 /* concat.png in Resources */,
+				11AB1BD621C9DB9500038653 /* amb.png in Resources */,
+				11AB1BE921CA1D3D00038653 /* BehaviorSubjectA.png in Resources */,
 				11C5AC5121770BF0001E006C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,17 +501,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FDStackView/FDStackView.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDStackView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -460,14 +584,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C5AC87217756CB001E006C /* WhereViewController.swift in Sources */,
+				11AB1BED21CA223A00038653 /* ScaledHeightImageView.swift in Sources */,
+				11AB1BF921CA3A8E00038653 /* SwiftDocumentHomeViewController.swift in Sources */,
 				113D530221A7F3B20040381F /* EnumViewController.swift in Sources */,
+				11AB1BDC21C9EC4A00038653 /* RxCatchErrorViewController.swift in Sources */,
+				11AB1BFD21CA3B4C00038653 /* BaseViewController.swift in Sources */,
+				11AB1BFB21CA3B3800038653 /* DocCollectionTypesViewController.swift in Sources */,
 				111645582182A3E6006A507E /* CurryingViewController.swift in Sources */,
+				11AB1BE221CA128000038653 /* RxConcatViewController.swift in Sources */,
+				1101FBD121BF8BBD006F4F3F /* KVOViewController.swift in Sources */,
 				11264EBB21B4DBA10081E56E /* RxSwiftObservableViewController.swift in Sources */,
+				11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */,
+				1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */,
+				11AB1BD421C9DB4C00038653 /* RxAmbViewController.swift in Sources */,
+				11AB1BF721CA35F600038653 /* RxBehaviorRelayViewController.swift in Sources */,
+				11AB1BCF21C9DADF00038653 /* RxHomeViewController.swift in Sources */,
+				11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */,
 				11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */,
 				11C5AC8221771908001E006C /* AccessControlViewController.swift in Sources */,
 				11C5AC8421771DCF001E006C /* ProtocolsViewController.swift in Sources */,
+				11AB1BF521CA31CA00038653 /* RxVariableViewController.swift in Sources */,
+				11AB1BF321CA2FB300038653 /* RxAsyncSubject ViewController.swift in Sources */,
 				11D1FA1C21B4B54C001DAA63 /* SqliteViewController.swift in Sources */,
 				11C5AC4C21770BF0001E006C /* AppDelegate.swift in Sources */,
+				11AB1BD821C9E0E800038653 /* RxBufferViewController.swift in Sources */,
 				11738C2021883629008ABC9A /* ClassViewController.swift in Sources */,
 				11C5AC7D2177177B001E006C /* StringsAndCharactersViewController.swift in Sources */,
 				11C5AC802177186F001E006C /* StructuresAndClassesViewController.swift in Sources */,

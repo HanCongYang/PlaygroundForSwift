@@ -1,31 +1,39 @@
 PODS:
+  - FDStackView (1.0.1)
   - RxAtomic (4.4.0)
   - RxCocoa (4.4.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.4.0):
     - RxAtomic (~> 4.4)
+  - SnapKit (4.2.0)
   - SQLite.swift (0.11.5):
     - SQLite.swift/standard (= 0.11.5)
   - SQLite.swift/standard (0.11.5)
 
 DEPENDENCIES:
+  - FDStackView
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
+  - SnapKit
   - SQLite.swift (~> 0.11.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FDStackView
     - RxAtomic
     - RxCocoa
     - RxSwift
+    - SnapKit
     - SQLite.swift
 
 SPEC CHECKSUMS:
+  FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
 
-PODFILE CHECKSUM: b9eb465970c373fe6b15be8b8defde0722584dc6
+PODFILE CHECKSUM: 58b243ebdee211bbbd76319b7a1a908280e45708
 
 COCOAPODS: 1.5.3

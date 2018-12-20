@@ -8,40 +8,65 @@
 
 import UIKit
 
-//extension String {
-//
-//
-//    func isNotEmpty() -> Bool {
-//        return !self.isEmpty
-//    }
-//}
-
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let tb : UITableView = UITableView(frame: CGRect.zero)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // defer 推迟
-        defer {
-            print("view did load finished")
-        }
-//        print("say something".isNotEmpty())
-        userPassword = "123456abc"
-        print(userPassword)
         
-        guard userPassword.count > 0 else {
-            return
-        }
-        
+        tb.delegate = self;
+        tb.dataSource = self;
+        tb.frame = self.view.frame
+        tb.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.view.addSubview(tb)
     }
     
-    var _userPassword : String = ""
-    var userPassword : String {
-        get { return _userPassword }
-        set { _userPassword = newValue }
+    override func viewWillAppear(_ animated: Bool) {
+
     }
-
-
-
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1;
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1000
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+        switch indexPath.row {
+        case 0:
+            cell.textLabel?.text = "0.KVO"
+        case 1:
+            cell.textLabel?.text = "1.RxSwift"
+        case 2:
+            cell.textLabel?.text = "2.Swift Document"
+        default:
+            cell.textLabel?.text = "null"
+            break
+        }
+        return cell;
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var vc : UIViewController?
+        switch indexPath.row {
+        case 0:
+            vc = KVOViewController()
+        case 1:
+            vc = RxHomeViewController()
+        case 2:
+            vc = SwiftDocumentHomeViewController()
+            
+        default: break
+            
+        }
+        
+        if let vc : UIViewController = vc {
+            self.navigationController?.pushViewController(vc, animated:true)
+        }
+        
+    }
 }
-
