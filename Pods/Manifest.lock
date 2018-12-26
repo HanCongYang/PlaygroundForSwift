@@ -1,5 +1,25 @@
 PODS:
+  - Alamofire (4.8.0)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
   - FDStackView (1.0.1)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya-ObjectMapper/Core (2.7):
+    - Moya (~> 11)
+    - ObjectMapper (~> 3.3)
+  - Moya-ObjectMapper/RxSwift (2.7):
+    - Moya-ObjectMapper/Core
+    - RxSwift (~> 4.1)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - Result (3.2.4)
   - RxAtomic (4.4.0)
   - RxCocoa (4.4.0):
     - RxSwift (~> 4.0)
@@ -11,7 +31,12 @@ PODS:
   - SQLite.swift/standard (0.11.5)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
   - FDStackView
+  - Moya
+  - Moya-ObjectMapper/RxSwift
+  - Moya/RxSwift
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
   - SnapKit
@@ -19,7 +44,13 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
     - FDStackView
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - Result
     - RxAtomic
     - RxCocoa
     - RxSwift
@@ -27,13 +58,19 @@ SPEC REPOS:
     - SQLite.swift
 
 SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Moya-ObjectMapper: 441caa307b527331fde59e2577adc632a16f1255
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
 
-PODFILE CHECKSUM: 58b243ebdee211bbbd76319b7a1a908280e45708
+PODFILE CHECKSUM: 154103846aff285455928a3694c26f756284fe41
 
 COCOAPODS: 1.5.3

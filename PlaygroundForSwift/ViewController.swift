@@ -53,8 +53,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var vc : UIViewController?
         switch indexPath.row {
-        case 0:
-            vc = KVOViewController()
         case 1:
             vc = RxHomeViewController()
         case 2:

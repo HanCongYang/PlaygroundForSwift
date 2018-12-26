@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import RxSwift
 
 class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-
+    let db = DisposeBag()
     let tb : UITableView = UITableView(frame: CGRect.zero)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        Observable<Int>.interval(1.0, scheduler: MainScheduler.instance)
+            .debug("interval")
+            .subscribe(onNext: {
+                print($0)
+            })
+            .addDisposableTo(db)
+        
         
         tb.delegate = self;
         tb.dataSource = self;
@@ -52,6 +63,10 @@ class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
             cell.textLabel?.text = "6.Variable"
         case 6:
             cell.textLabel?.text = "7.BehaviorRelay"
+        case 7:
+            cell.textLabel?.text = "8.Schedulers - 调度器"
+        case 8:
+            cell.textLabel?.text = "9.Network"
         default:
             cell.textLabel?.text = "null"
             break
@@ -76,7 +91,10 @@ class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
             vc = RxVariableViewController()
         case 6:
             vc = RxBehaviorRelayViewController()
-            
+        case 7:
+            vc = RxSchedulersViewController()
+        case 8:
+            vc = RxSwiftNetworkViewController()
         default: break
             
         }

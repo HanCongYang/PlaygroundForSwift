@@ -7,7 +7,12 @@ target 'PlaygroundForSwift' do
   pod 'SQLite.swift', '~> 0.11.5'
   pod 'SnapKit'
   pod 'FDStackView'
-
+  pod 'Alamofire'
+  pod 'Moya'
+  pod 'Moya/RxSwift'
+  pod 'AlamofireObjectMapper'
+  pod 'Moya-ObjectMapper/RxSwift'
+  
   target 'PlaygroundForSwiftTests' do
     inherit! :search_paths
   end

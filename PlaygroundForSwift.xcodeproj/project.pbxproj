@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1101FBD121BF8BBD006F4F3F /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101FBD021BF8BBD006F4F3F /* KVOViewController.swift */; };
 		111645582182A3E6006A507E /* CurryingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111645572182A3E6006A507E /* CurryingViewController.swift */; };
+		111CC6BB21CCCBB900ACAFC6 /* RxSchedulersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CC6BA21CCCBB900ACAFC6 /* RxSchedulersViewController.swift */; };
+		111CC6BD21CCCD7800ACAFC6 /* Scheduler.png in Resources */ = {isa = PBXBuildFile; fileRef = 111CC6BC21CCCD7700ACAFC6 /* Scheduler.png */; };
+		111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */; };
+		111CC6C121CCD45700ACAFC6 /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CC6C021CCD45700ACAFC6 /* MyService.swift */; };
 		11264EBB21B4DBA10081E56E /* RxSwiftObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */; };
 		113D530221A7F3B20040381F /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D530121A7F3B20040381F /* EnumViewController.swift */; };
 		11738C2021883629008ABC9A /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11738C1F21883629008ABC9A /* ClassViewController.swift */; };
@@ -73,8 +76,11 @@
 /* Begin PBXFileReference section */
 		06F0A1297DE00C5DA97AF22D /* Pods_PlaygroundForSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaygroundForSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F1C3A032BCA6DA2644B784 /* Pods-PlaygroundForSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundForSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaygroundForSwiftUITests/Pods-PlaygroundForSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1101FBD021BF8BBD006F4F3F /* KVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
 		111645572182A3E6006A507E /* CurryingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurryingViewController.swift; sourceTree = "<group>"; };
+		111CC6BA21CCCBB900ACAFC6 /* RxSchedulersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSchedulersViewController.swift; sourceTree = "<group>"; };
+		111CC6BC21CCCD7700ACAFC6 /* Scheduler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scheduler.png; sourceTree = "<group>"; };
+		111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftNetworkViewController.swift; sourceTree = "<group>"; };
+		111CC6C021CCD45700ACAFC6 /* MyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
 		11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftObservableViewController.swift; sourceTree = "<group>"; };
 		113D530121A7F3B20040381F /* EnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
 		11738C1F21883629008ABC9A /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
@@ -157,14 +163,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1101FBCF21BF8B8D006F4F3F /* KVO */ = {
-			isa = PBXGroup;
-			children = (
-				1101FBD021BF8BBD006F4F3F /* KVOViewController.swift */,
-			);
-			path = KVO;
-			sourceTree = "<group>";
-		};
 		111645562182A3D2006A507E /* Tips */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +193,9 @@
 				11AB1BF221CA2FB300038653 /* RxAsyncSubject ViewController.swift */,
 				11AB1BF421CA31CA00038653 /* RxVariableViewController.swift */,
 				11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */,
+				111CC6BA21CCCBB900ACAFC6 /* RxSchedulersViewController.swift */,
+				111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */,
+				111CC6C021CCD45700ACAFC6 /* MyService.swift */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -218,6 +219,7 @@
 				11AB1BD921C9E1BB00038653 /* buffer.png */,
 				11AB1BDD21C9ED0E00038653 /* catchError.png */,
 				11AB1BDF21CA124800038653 /* concat.png */,
+				111CC6BC21CCCD7700ACAFC6 /* Scheduler.png */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -258,7 +260,6 @@
 			children = (
 				11AB1BEB21CA222900038653 /* Common */,
 				11AB1BCA21C9D90D00038653 /* RxSwift */,
-				1101FBCF21BF8B8D006F4F3F /* KVO */,
 				11D1FA1A21B4B53D001DAA63 /* Third */,
 				111645562182A3D2006A507E /* Tips */,
 				11C5AC85217756B8001E006C /* Temp */,
@@ -470,6 +471,7 @@
 				11C5AC5321770BF1001E006C /* Assets.xcassets in Resources */,
 				11AB1BF121CA2F6500038653 /* AsyncSubjectB.png in Resources */,
 				11AB1BDA21C9E1BB00038653 /* buffer.png in Resources */,
+				111CC6BD21CCCD7800ACAFC6 /* Scheduler.png in Resources */,
 				11AB1BE021CA124900038653 /* concat.png in Resources */,
 				11AB1BD621C9DB9500038653 /* amb.png in Resources */,
 				11AB1BE921CA1D3D00038653 /* BehaviorSubjectA.png in Resources */,
@@ -501,7 +503,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/FDStackView/FDStackView.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -510,7 +518,13 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDStackView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -592,17 +606,19 @@
 				11AB1BFB21CA3B3800038653 /* DocCollectionTypesViewController.swift in Sources */,
 				111645582182A3E6006A507E /* CurryingViewController.swift in Sources */,
 				11AB1BE221CA128000038653 /* RxConcatViewController.swift in Sources */,
-				1101FBD121BF8BBD006F4F3F /* KVOViewController.swift in Sources */,
 				11264EBB21B4DBA10081E56E /* RxSwiftObservableViewController.swift in Sources */,
 				11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */,
 				1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */,
+				111CC6BB21CCCBB900ACAFC6 /* RxSchedulersViewController.swift in Sources */,
 				11AB1BD421C9DB4C00038653 /* RxAmbViewController.swift in Sources */,
 				11AB1BF721CA35F600038653 /* RxBehaviorRelayViewController.swift in Sources */,
 				11AB1BCF21C9DADF00038653 /* RxHomeViewController.swift in Sources */,
+				111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */,
 				11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */,
 				11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */,
 				11C5AC8221771908001E006C /* AccessControlViewController.swift in Sources */,
 				11C5AC8421771DCF001E006C /* ProtocolsViewController.swift in Sources */,
+				111CC6C121CCD45700ACAFC6 /* MyService.swift in Sources */,
 				11AB1BF521CA31CA00038653 /* RxVariableViewController.swift in Sources */,
 				11AB1BF321CA2FB300038653 /* RxAsyncSubject ViewController.swift in Sources */,
 				11D1FA1C21B4B54C001DAA63 /* SqliteViewController.swift in Sources */,
