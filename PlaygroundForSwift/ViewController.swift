@@ -38,11 +38,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         switch indexPath.row {
         case 0:
-            cell.textLabel?.text = "0.KVO"
+            cell.textLabel?.text = "1.Swift Language Guide"
         case 1:
-            cell.textLabel?.text = "1.RxSwift"
-        case 2:
-            cell.textLabel?.text = "2.Swift Document"
+            cell.textLabel?.text = "2.RxSwift"
         default:
             cell.textLabel?.text = "null"
             break
@@ -53,10 +51,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var vc : UIViewController?
         switch indexPath.row {
+        case 0:
+            vc = SwiftGuideHomeViewController()
         case 1:
             vc = RxHomeViewController()
-        case 2:
-            vc = SwiftDocumentHomeViewController()
             
         default: break
             

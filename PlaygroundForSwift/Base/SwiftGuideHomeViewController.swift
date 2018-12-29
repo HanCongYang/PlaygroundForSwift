@@ -1,14 +1,14 @@
 //
-//  SwiftDocumentHomeViewController.swift
+//  SwiftGuideHomeViewController.swift
 //  PlaygroundForSwift
 //
-//  Created by 李爱红 on 2018/12/19.
+//  Created by 李爱红 on 2018/12/28.
 //  Copyright © 2018年 LAH. All rights reserved.
 //
 
 import UIKit
 
-class SwiftDocumentHomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SwiftGuideHomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
     let tb : UITableView = UITableView(frame: CGRect.zero)
     
@@ -39,6 +39,10 @@ class SwiftDocumentHomeViewController: UIViewController, UITableViewDelegate, UI
         switch indexPath.row {
         case 0:
             cell.textLabel?.text = "1.Collection Types"
+        case 1:
+            cell.textLabel?.text = "2.Struct and Class"
+        case 2:
+            cell.textLabel?.text = "3.Properties"
 
         default:
             cell.textLabel?.text = "null"
@@ -52,6 +56,10 @@ class SwiftDocumentHomeViewController: UIViewController, UITableViewDelegate, UI
         switch indexPath.row {
         case 0:
             vc = DocCollectionTypesViewController()
+        case 1:
+            vc = GuideStructAndClassViewController()
+        case 2:
+            vc = GuidePropertiesViewController()
             
         default: break
             

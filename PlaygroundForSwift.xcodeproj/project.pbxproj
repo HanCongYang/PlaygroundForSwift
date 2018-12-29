@@ -13,7 +13,11 @@
 		111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */; };
 		111CC6C121CCD45700ACAFC6 /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CC6C021CCD45700ACAFC6 /* MyService.swift */; };
 		11264EBB21B4DBA10081E56E /* RxSwiftObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */; };
+		112D89BB21D512040067BF3E /* RxRetryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D89BA21D512040067BF3E /* RxRetryViewController.swift */; };
+		112D89BD21D5B4570067BF3E /* RxFlatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D89BC21D5B4570067BF3E /* RxFlatMapViewController.swift */; };
 		113D530221A7F3B20040381F /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D530121A7F3B20040381F /* EnumViewController.swift */; };
+		11431CEF21D4C6E600D4D393 /* RxFromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431CEE21D4C6E600D4D393 /* RxFromViewController.swift */; };
+		11431CF121D4CC4F00D4D393 /* RxTakeFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431CF021D4CC4F00D4D393 /* RxTakeFamilyViewController.swift */; };
 		11738C2021883629008ABC9A /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11738C1F21883629008ABC9A /* ClassViewController.swift */; };
 		1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */; };
 		11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BCC21C9D93300038653 /* RxRootViewController.swift */; };
@@ -35,7 +39,6 @@
 		11AB1BF321CA2FB300038653 /* RxAsyncSubject ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF221CA2FB300038653 /* RxAsyncSubject ViewController.swift */; };
 		11AB1BF521CA31CA00038653 /* RxVariableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF421CA31CA00038653 /* RxVariableViewController.swift */; };
 		11AB1BF721CA35F600038653 /* RxBehaviorRelayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */; };
-		11AB1BF921CA3A8E00038653 /* SwiftDocumentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF821CA3A8E00038653 /* SwiftDocumentHomeViewController.swift */; };
 		11AB1BFB21CA3B3800038653 /* DocCollectionTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */; };
 		11AB1BFD21CA3B4C00038653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BFC21CA3B4B00038653 /* BaseViewController.swift */; };
 		11C5AC4C21770BF0001E006C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC4B21770BF0001E006C /* AppDelegate.swift */; };
@@ -46,11 +49,17 @@
 		11C5AC6121770BF1001E006C /* PlaygroundForSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC6021770BF1001E006C /* PlaygroundForSwiftTests.swift */; };
 		11C5AC6C21770BF1001E006C /* PlaygroundForSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC6B21770BF1001E006C /* PlaygroundForSwiftUITests.swift */; };
 		11C5AC7D2177177B001E006C /* StringsAndCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC7B2177177B001E006C /* StringsAndCharactersViewController.swift */; };
-		11C5AC802177186F001E006C /* StructuresAndClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC7F2177186F001E006C /* StructuresAndClassesViewController.swift */; };
 		11C5AC8221771908001E006C /* AccessControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC8121771908001E006C /* AccessControlViewController.swift */; };
 		11C5AC8421771DCF001E006C /* ProtocolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC8321771DCF001E006C /* ProtocolsViewController.swift */; };
 		11C5AC87217756CB001E006C /* WhereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC86217756CB001E006C /* WhereViewController.swift */; };
 		11D1FA1C21B4B54C001DAA63 /* SqliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1FA1B21B4B54C001DAA63 /* SqliteViewController.swift */; };
+		11E6FABA21D60B9700B9C970 /* GuideStructAndClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FAB921D60B9700B9C970 /* GuideStructAndClassViewController.swift */; };
+		11E6FABE21D60D6100B9C970 /* SwiftGuideHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */; };
+		11E6FAC021D60E0800B9C970 /* SwiftGuideRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */; };
+		11E6FAC221D614A700B9C970 /* GuidePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */; };
+		11FF57A221D3648F00CC0CBC /* RxConcatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF57A121D3648F00CC0CBC /* RxConcatMapViewController.swift */; };
+		11FF57A421D36EDA00CC0CBC /* concatMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 11FF57A321D36EDA00CC0CBC /* concatMap.png */; };
+		11FF57A621D371A700CC0CBC /* RxConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF57A521D371A700CC0CBC /* RxConnectViewController.swift */; };
 		1CFEB2E38671402EA16337C5 /* Pods_PlaygroundForSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7707CE9E4CF3B618299C2E43 /* Pods_PlaygroundForSwiftTests.framework */; };
 		978D1881A3061AE8BC1E4890 /* Pods_PlaygroundForSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F0A1297DE00C5DA97AF22D /* Pods_PlaygroundForSwiftUITests.framework */; };
 		9C1E22BF96A5949E1C94B6BD /* Pods_PlaygroundForSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D62D9CCB3E1E123722D19B /* Pods_PlaygroundForSwift.framework */; };
@@ -82,7 +91,11 @@
 		111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftNetworkViewController.swift; sourceTree = "<group>"; };
 		111CC6C021CCD45700ACAFC6 /* MyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
 		11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftObservableViewController.swift; sourceTree = "<group>"; };
+		112D89BA21D512040067BF3E /* RxRetryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRetryViewController.swift; sourceTree = "<group>"; };
+		112D89BC21D5B4570067BF3E /* RxFlatMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxFlatMapViewController.swift; sourceTree = "<group>"; };
 		113D530121A7F3B20040381F /* EnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
+		11431CEE21D4C6E600D4D393 /* RxFromViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxFromViewController.swift; sourceTree = "<group>"; };
+		11431CF021D4CC4F00D4D393 /* RxTakeFamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTakeFamilyViewController.swift; sourceTree = "<group>"; };
 		11738C1F21883629008ABC9A /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 		1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWExtensionsViewController.swift; sourceTree = "<group>"; };
 		11AB1BCC21C9D93300038653 /* RxRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRootViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +117,6 @@
 		11AB1BF221CA2FB300038653 /* RxAsyncSubject ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxAsyncSubject ViewController.swift"; sourceTree = "<group>"; };
 		11AB1BF421CA31CA00038653 /* RxVariableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxVariableViewController.swift; sourceTree = "<group>"; };
 		11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBehaviorRelayViewController.swift; sourceTree = "<group>"; };
-		11AB1BF821CA3A8E00038653 /* SwiftDocumentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocumentHomeViewController.swift; sourceTree = "<group>"; };
 		11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCollectionTypesViewController.swift; sourceTree = "<group>"; };
 		11AB1BFC21CA3B4B00038653 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		11C5AC4821770BF0001E006C /* PlaygroundForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,11 +133,17 @@
 		11C5AC6B21770BF1001E006C /* PlaygroundForSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundForSwiftUITests.swift; sourceTree = "<group>"; };
 		11C5AC6D21770BF1001E006C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C5AC7B2177177B001E006C /* StringsAndCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsAndCharactersViewController.swift; sourceTree = "<group>"; };
-		11C5AC7F2177186F001E006C /* StructuresAndClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresAndClassesViewController.swift; sourceTree = "<group>"; };
 		11C5AC8121771908001E006C /* AccessControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlViewController.swift; sourceTree = "<group>"; };
 		11C5AC8321771DCF001E006C /* ProtocolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsViewController.swift; sourceTree = "<group>"; };
 		11C5AC86217756CB001E006C /* WhereViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereViewController.swift; sourceTree = "<group>"; };
 		11D1FA1B21B4B54C001DAA63 /* SqliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteViewController.swift; sourceTree = "<group>"; };
+		11E6FAB921D60B9700B9C970 /* GuideStructAndClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideStructAndClassViewController.swift; sourceTree = "<group>"; };
+		11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideHomeViewController.swift; sourceTree = "<group>"; };
+		11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideRootViewController.swift; sourceTree = "<group>"; };
+		11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePropertiesViewController.swift; sourceTree = "<group>"; };
+		11FF57A121D3648F00CC0CBC /* RxConcatMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxConcatMapViewController.swift; sourceTree = "<group>"; };
+		11FF57A321D36EDA00CC0CBC /* concatMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concatMap.png; sourceTree = "<group>"; };
+		11FF57A521D371A700CC0CBC /* RxConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxConnectViewController.swift; sourceTree = "<group>"; };
 		35E4D5BFFD8B09C1B0A35508 /* Pods-PlaygroundForSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundForSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift.release.xcconfig"; sourceTree = "<group>"; };
 		4F38B48FB2DB8F66D34D20F8 /* Pods-PlaygroundForSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundForSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaygroundForSwiftUITests/Pods-PlaygroundForSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7707CE9E4CF3B618299C2E43 /* Pods_PlaygroundForSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaygroundForSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +213,12 @@
 				11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */,
 				111CC6BA21CCCBB900ACAFC6 /* RxSchedulersViewController.swift */,
 				111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */,
+				11FF57A121D3648F00CC0CBC /* RxConcatMapViewController.swift */,
+				11FF57A521D371A700CC0CBC /* RxConnectViewController.swift */,
+				11431CEE21D4C6E600D4D393 /* RxFromViewController.swift */,
+				11431CF021D4CC4F00D4D393 /* RxTakeFamilyViewController.swift */,
+				112D89BC21D5B4570067BF3E /* RxFlatMapViewController.swift */,
+				112D89BA21D512040067BF3E /* RxRetryViewController.swift */,
 				111CC6C021CCD45700ACAFC6 /* MyService.swift */,
 			);
 			path = RxSwift;
@@ -220,6 +244,7 @@
 				11AB1BDD21C9ED0E00038653 /* catchError.png */,
 				11AB1BDF21CA124800038653 /* concat.png */,
 				111CC6BC21CCCD7700ACAFC6 /* Scheduler.png */,
+				11FF57A321D36EDA00CC0CBC /* concatMap.png */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -304,14 +329,16 @@
 		11C5AC7A21770CCE001E006C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				11AB1BF821CA3A8E00038653 /* SwiftDocumentHomeViewController.swift */,
+				11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */,
+				11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */,
 				11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */,
 				11C5AC7B2177177B001E006C /* StringsAndCharactersViewController.swift */,
-				11C5AC7F2177186F001E006C /* StructuresAndClassesViewController.swift */,
 				11C5AC8121771908001E006C /* AccessControlViewController.swift */,
 				11C5AC8321771DCF001E006C /* ProtocolsViewController.swift */,
 				11738C1F21883629008ABC9A /* ClassViewController.swift */,
 				113D530121A7F3B20040381F /* EnumViewController.swift */,
+				11E6FAB921D60B9700B9C970 /* GuideStructAndClassViewController.swift */,
+				11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -473,6 +500,7 @@
 				11AB1BDA21C9E1BB00038653 /* buffer.png in Resources */,
 				111CC6BD21CCCD7800ACAFC6 /* Scheduler.png in Resources */,
 				11AB1BE021CA124900038653 /* concat.png in Resources */,
+				11FF57A421D36EDA00CC0CBC /* concatMap.png in Resources */,
 				11AB1BD621C9DB9500038653 /* amb.png in Resources */,
 				11AB1BE921CA1D3D00038653 /* BehaviorSubjectA.png in Resources */,
 				11C5AC5121770BF0001E006C /* Main.storyboard in Resources */,
@@ -597,22 +625,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E6FAC021D60E0800B9C970 /* SwiftGuideRootViewController.swift in Sources */,
+				112D89BB21D512040067BF3E /* RxRetryViewController.swift in Sources */,
 				11C5AC87217756CB001E006C /* WhereViewController.swift in Sources */,
 				11AB1BED21CA223A00038653 /* ScaledHeightImageView.swift in Sources */,
-				11AB1BF921CA3A8E00038653 /* SwiftDocumentHomeViewController.swift in Sources */,
 				113D530221A7F3B20040381F /* EnumViewController.swift in Sources */,
 				11AB1BDC21C9EC4A00038653 /* RxCatchErrorViewController.swift in Sources */,
 				11AB1BFD21CA3B4C00038653 /* BaseViewController.swift in Sources */,
 				11AB1BFB21CA3B3800038653 /* DocCollectionTypesViewController.swift in Sources */,
 				111645582182A3E6006A507E /* CurryingViewController.swift in Sources */,
+				11431CF121D4CC4F00D4D393 /* RxTakeFamilyViewController.swift in Sources */,
 				11AB1BE221CA128000038653 /* RxConcatViewController.swift in Sources */,
+				11E6FABA21D60B9700B9C970 /* GuideStructAndClassViewController.swift in Sources */,
 				11264EBB21B4DBA10081E56E /* RxSwiftObservableViewController.swift in Sources */,
 				11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */,
+				11FF57A621D371A700CC0CBC /* RxConnectViewController.swift in Sources */,
+				11E6FABE21D60D6100B9C970 /* SwiftGuideHomeViewController.swift in Sources */,
+				112D89BD21D5B4570067BF3E /* RxFlatMapViewController.swift in Sources */,
 				1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */,
 				111CC6BB21CCCBB900ACAFC6 /* RxSchedulersViewController.swift in Sources */,
 				11AB1BD421C9DB4C00038653 /* RxAmbViewController.swift in Sources */,
 				11AB1BF721CA35F600038653 /* RxBehaviorRelayViewController.swift in Sources */,
 				11AB1BCF21C9DADF00038653 /* RxHomeViewController.swift in Sources */,
+				11431CEF21D4C6E600D4D393 /* RxFromViewController.swift in Sources */,
 				111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */,
 				11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */,
 				11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */,
@@ -623,10 +658,11 @@
 				11AB1BF321CA2FB300038653 /* RxAsyncSubject ViewController.swift in Sources */,
 				11D1FA1C21B4B54C001DAA63 /* SqliteViewController.swift in Sources */,
 				11C5AC4C21770BF0001E006C /* AppDelegate.swift in Sources */,
+				11FF57A221D3648F00CC0CBC /* RxConcatMapViewController.swift in Sources */,
+				11E6FAC221D614A700B9C970 /* GuidePropertiesViewController.swift in Sources */,
 				11AB1BD821C9E0E800038653 /* RxBufferViewController.swift in Sources */,
 				11738C2021883629008ABC9A /* ClassViewController.swift in Sources */,
 				11C5AC7D2177177B001E006C /* StringsAndCharactersViewController.swift in Sources */,
-				11C5AC802177186F001E006C /* StructuresAndClassesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

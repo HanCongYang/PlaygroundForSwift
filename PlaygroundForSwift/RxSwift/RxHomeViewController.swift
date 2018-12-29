@@ -16,15 +16,15 @@ class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        Observable<Int>.interval(1.0, scheduler: MainScheduler.instance)
-            .debug("interval")
-            .subscribe(onNext: {
-                print($0)
-            })
-            .addDisposableTo(db)
+//        
+//        
+//        
+//        Observable<Int>.interval(1.0, scheduler: MainScheduler.instance)
+//            .debug("interval")
+//            .subscribe(onNext: {
+//                print($0)
+//            })
+//            .addDisposableTo(db)
         
         
         tb.delegate = self;
@@ -67,6 +67,19 @@ class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
             cell.textLabel?.text = "8.Schedulers - 调度器"
         case 8:
             cell.textLabel?.text = "9.Network"
+        case 9:
+            cell.textLabel?.text = "10.concatMap"
+        case 10:
+            cell.textLabel?.text = "11.connect"
+        case 11:
+            cell.textLabel?.text = "12.from"
+        case 12:
+            cell.textLabel?.text = "13.take family"
+        case 13:
+            cell.textLabel?.text = "14.retry"
+        case 14:
+            cell.textLabel?.text = "15.flatMap"
+            
         default:
             cell.textLabel?.text = "null"
             break
@@ -95,6 +108,19 @@ class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
             vc = RxSchedulersViewController()
         case 8:
             vc = RxSwiftNetworkViewController()
+        case 9:
+            vc = RxConcatMapViewController()
+        case 10:
+            vc = RxConnectViewController()
+        case 11:
+            vc = RxFromViewController()
+        case 12:
+            vc = RxTakeFamilyViewController()
+        case 13:
+            vc = RxRetryViewController()
+        case 14:
+            vc = RxFlatMapViewController()
+            
         default: break
             
         }
