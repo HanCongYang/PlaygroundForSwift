@@ -12,6 +12,7 @@ target 'PlaygroundForSwift' do
   pod 'Moya/RxSwift'
   pod 'AlamofireObjectMapper'
   pod 'Moya-ObjectMapper/RxSwift'
+  pod 'RxKeyboard'
   
   target 'PlaygroundForSwiftTests' do
     inherit! :search_paths

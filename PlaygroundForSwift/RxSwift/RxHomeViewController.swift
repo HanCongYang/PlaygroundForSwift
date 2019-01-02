@@ -79,6 +79,14 @@ class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
             cell.textLabel?.text = "14.retry"
         case 14:
             cell.textLabel?.text = "15.flatMap"
+        case 15:
+            cell.textLabel?.text = "16.shareReplay"
+        case 16:
+            cell.textLabel?.text = "17.do"
+        case 17:
+            cell.textLabel?.text = "18.distinctUntilChanged"
+        case 18:
+            cell.textLabel?.text = "19.Keyboard Avoid"
             
         default:
             cell.textLabel?.text = "null"
@@ -120,6 +128,14 @@ class RxHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
             vc = RxRetryViewController()
         case 14:
             vc = RxFlatMapViewController()
+        case 15:
+            vc = RxShareReplayViewController()
+        case 16:
+            vc = RxDoViewController()
+        case 17:
+            vc = RxDistinctUntilChangedViewController()
+        case 18:
+            vc = RxKeyboardViewController()
             
         default: break
             

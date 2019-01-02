@@ -41,6 +41,11 @@
 		11AB1BF721CA35F600038653 /* RxBehaviorRelayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */; };
 		11AB1BFB21CA3B3800038653 /* DocCollectionTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */; };
 		11AB1BFD21CA3B4C00038653 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BFC21CA3B4B00038653 /* BaseViewController.swift */; };
+		11C484B221D70EF200F44966 /* RxShareReplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C484B121D70EF200F44966 /* RxShareReplayViewController.swift */; };
+		11C484B421D713A500F44966 /* shareReplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C484B321D713A500F44966 /* shareReplay.png */; };
+		11C484B621D716F400F44966 /* RxDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C484B521D716F400F44966 /* RxDoViewController.swift */; };
+		11C484B821D71A0F00F44966 /* RxDistinctUntilChangedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C484B721D71A0F00F44966 /* RxDistinctUntilChangedViewController.swift */; };
+		11C484BA21D71A8200F44966 /* distinctUntilChanged.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C484B921D71A8200F44966 /* distinctUntilChanged.png */; };
 		11C5AC4C21770BF0001E006C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC4B21770BF0001E006C /* AppDelegate.swift */; };
 		11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC4D21770BF0001E006C /* ViewController.swift */; };
 		11C5AC5121770BF0001E006C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C5AC4F21770BF0001E006C /* Main.storyboard */; };
@@ -57,6 +62,10 @@
 		11E6FABE21D60D6100B9C970 /* SwiftGuideHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */; };
 		11E6FAC021D60E0800B9C970 /* SwiftGuideRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */; };
 		11E6FAC221D614A700B9C970 /* GuidePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */; };
+		11F6EC9D21D756D10043E635 /* GuideMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6EC9C21D756D10043E635 /* GuideMethodViewController.swift */; };
+		11F6EC9F21D764BE0043E635 /* RxControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6EC9E21D764BE0043E635 /* RxControlFlowViewController.swift */; };
+		11F6ECA321D76B200043E635 /* GuideNestedTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6ECA221D76B200043E635 /* GuideNestedTypesViewController.swift */; };
+		11F6ECA521D7713B0043E635 /* RxKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6ECA421D7713B0043E635 /* RxKeyboardViewController.swift */; };
 		11FF57A221D3648F00CC0CBC /* RxConcatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF57A121D3648F00CC0CBC /* RxConcatMapViewController.swift */; };
 		11FF57A421D36EDA00CC0CBC /* concatMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 11FF57A321D36EDA00CC0CBC /* concatMap.png */; };
 		11FF57A621D371A700CC0CBC /* RxConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF57A521D371A700CC0CBC /* RxConnectViewController.swift */; };
@@ -119,6 +128,11 @@
 		11AB1BF621CA35F600038653 /* RxBehaviorRelayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBehaviorRelayViewController.swift; sourceTree = "<group>"; };
 		11AB1BFA21CA3B3800038653 /* DocCollectionTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCollectionTypesViewController.swift; sourceTree = "<group>"; };
 		11AB1BFC21CA3B4B00038653 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		11C484B121D70EF200F44966 /* RxShareReplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxShareReplayViewController.swift; sourceTree = "<group>"; };
+		11C484B321D713A500F44966 /* shareReplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareReplay.png; sourceTree = "<group>"; };
+		11C484B521D716F400F44966 /* RxDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDoViewController.swift; sourceTree = "<group>"; };
+		11C484B721D71A0F00F44966 /* RxDistinctUntilChangedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDistinctUntilChangedViewController.swift; sourceTree = "<group>"; };
+		11C484B921D71A8200F44966 /* distinctUntilChanged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distinctUntilChanged.png; sourceTree = "<group>"; };
 		11C5AC4821770BF0001E006C /* PlaygroundForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C5AC4B21770BF0001E006C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11C5AC4D21770BF0001E006C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +155,10 @@
 		11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideHomeViewController.swift; sourceTree = "<group>"; };
 		11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideRootViewController.swift; sourceTree = "<group>"; };
 		11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePropertiesViewController.swift; sourceTree = "<group>"; };
+		11F6EC9C21D756D10043E635 /* GuideMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMethodViewController.swift; sourceTree = "<group>"; };
+		11F6EC9E21D764BE0043E635 /* RxControlFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxControlFlowViewController.swift; sourceTree = "<group>"; };
+		11F6ECA221D76B200043E635 /* GuideNestedTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideNestedTypesViewController.swift; sourceTree = "<group>"; };
+		11F6ECA421D7713B0043E635 /* RxKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxKeyboardViewController.swift; sourceTree = "<group>"; };
 		11FF57A121D3648F00CC0CBC /* RxConcatMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxConcatMapViewController.swift; sourceTree = "<group>"; };
 		11FF57A321D36EDA00CC0CBC /* concatMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concatMap.png; sourceTree = "<group>"; };
 		11FF57A521D371A700CC0CBC /* RxConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxConnectViewController.swift; sourceTree = "<group>"; };
@@ -219,6 +237,11 @@
 				11431CF021D4CC4F00D4D393 /* RxTakeFamilyViewController.swift */,
 				112D89BC21D5B4570067BF3E /* RxFlatMapViewController.swift */,
 				112D89BA21D512040067BF3E /* RxRetryViewController.swift */,
+				11C484B121D70EF200F44966 /* RxShareReplayViewController.swift */,
+				11C484B521D716F400F44966 /* RxDoViewController.swift */,
+				11C484B721D71A0F00F44966 /* RxDistinctUntilChangedViewController.swift */,
+				11F6EC9E21D764BE0043E635 /* RxControlFlowViewController.swift */,
+				11F6ECA421D7713B0043E635 /* RxKeyboardViewController.swift */,
 				111CC6C021CCD45700ACAFC6 /* MyService.swift */,
 			);
 			path = RxSwift;
@@ -245,6 +268,8 @@
 				11AB1BDF21CA124800038653 /* concat.png */,
 				111CC6BC21CCCD7700ACAFC6 /* Scheduler.png */,
 				11FF57A321D36EDA00CC0CBC /* concatMap.png */,
+				11C484B321D713A500F44966 /* shareReplay.png */,
+				11C484B921D71A8200F44966 /* distinctUntilChanged.png */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -339,6 +364,8 @@
 				113D530121A7F3B20040381F /* EnumViewController.swift */,
 				11E6FAB921D60B9700B9C970 /* GuideStructAndClassViewController.swift */,
 				11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */,
+				11F6EC9C21D756D10043E635 /* GuideMethodViewController.swift */,
+				11F6ECA221D76B200043E635 /* GuideNestedTypesViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -493,12 +520,14 @@
 			files = (
 				11AB1BDE21C9ED0E00038653 /* catchError.png in Resources */,
 				11AB1BEF21CA2F4300038653 /* AsyncSubjectA.png in Resources */,
+				11C484BA21D71A8200F44966 /* distinctUntilChanged.png in Resources */,
 				11AB1BE821CA1D3D00038653 /* BehaviorSubjectB.png in Resources */,
 				11C5AC5621770BF1001E006C /* LaunchScreen.storyboard in Resources */,
 				11C5AC5321770BF1001E006C /* Assets.xcassets in Resources */,
 				11AB1BF121CA2F6500038653 /* AsyncSubjectB.png in Resources */,
 				11AB1BDA21C9E1BB00038653 /* buffer.png in Resources */,
 				111CC6BD21CCCD7800ACAFC6 /* Scheduler.png in Resources */,
+				11C484B421D713A500F44966 /* shareReplay.png in Resources */,
 				11AB1BE021CA124900038653 /* concat.png in Resources */,
 				11FF57A421D36EDA00CC0CBC /* concatMap.png in Resources */,
 				11AB1BD621C9DB9500038653 /* amb.png in Resources */,
@@ -540,6 +569,7 @@
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -555,6 +585,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -629,6 +660,7 @@
 				112D89BB21D512040067BF3E /* RxRetryViewController.swift in Sources */,
 				11C5AC87217756CB001E006C /* WhereViewController.swift in Sources */,
 				11AB1BED21CA223A00038653 /* ScaledHeightImageView.swift in Sources */,
+				11C484B821D71A0F00F44966 /* RxDistinctUntilChangedViewController.swift in Sources */,
 				113D530221A7F3B20040381F /* EnumViewController.swift in Sources */,
 				11AB1BDC21C9EC4A00038653 /* RxCatchErrorViewController.swift in Sources */,
 				11AB1BFD21CA3B4C00038653 /* BaseViewController.swift in Sources */,
@@ -640,15 +672,20 @@
 				11264EBB21B4DBA10081E56E /* RxSwiftObservableViewController.swift in Sources */,
 				11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */,
 				11FF57A621D371A700CC0CBC /* RxConnectViewController.swift in Sources */,
+				11F6ECA321D76B200043E635 /* GuideNestedTypesViewController.swift in Sources */,
 				11E6FABE21D60D6100B9C970 /* SwiftGuideHomeViewController.swift in Sources */,
 				112D89BD21D5B4570067BF3E /* RxFlatMapViewController.swift in Sources */,
 				1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */,
+				11F6EC9F21D764BE0043E635 /* RxControlFlowViewController.swift in Sources */,
 				111CC6BB21CCCBB900ACAFC6 /* RxSchedulersViewController.swift in Sources */,
+				11F6ECA521D7713B0043E635 /* RxKeyboardViewController.swift in Sources */,
 				11AB1BD421C9DB4C00038653 /* RxAmbViewController.swift in Sources */,
 				11AB1BF721CA35F600038653 /* RxBehaviorRelayViewController.swift in Sources */,
 				11AB1BCF21C9DADF00038653 /* RxHomeViewController.swift in Sources */,
 				11431CEF21D4C6E600D4D393 /* RxFromViewController.swift in Sources */,
+				11C484B621D716F400F44966 /* RxDoViewController.swift in Sources */,
 				111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */,
+				11C484B221D70EF200F44966 /* RxShareReplayViewController.swift in Sources */,
 				11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */,
 				11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */,
 				11C5AC8221771908001E006C /* AccessControlViewController.swift in Sources */,
@@ -658,6 +695,7 @@
 				11AB1BF321CA2FB300038653 /* RxAsyncSubject ViewController.swift in Sources */,
 				11D1FA1C21B4B54C001DAA63 /* SqliteViewController.swift in Sources */,
 				11C5AC4C21770BF0001E006C /* AppDelegate.swift in Sources */,
+				11F6EC9D21D756D10043E635 /* GuideMethodViewController.swift in Sources */,
 				11FF57A221D3648F00CC0CBC /* RxConcatMapViewController.swift in Sources */,
 				11E6FAC221D614A700B9C970 /* GuidePropertiesViewController.swift in Sources */,
 				11AB1BD821C9E0E800038653 /* RxBufferViewController.swift in Sources */,

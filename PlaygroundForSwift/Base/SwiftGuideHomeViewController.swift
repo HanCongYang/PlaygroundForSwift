@@ -43,7 +43,11 @@ class SwiftGuideHomeViewController: UIViewController, UITableViewDelegate, UITab
             cell.textLabel?.text = "2.Struct and Class"
         case 2:
             cell.textLabel?.text = "3.Properties"
-
+        case 3:
+            cell.textLabel?.text = "4.Methods"
+        case 4:
+            cell.textLabel?.text = "5.Nested Types"
+            
         default:
             cell.textLabel?.text = "null"
             break
@@ -60,6 +64,10 @@ class SwiftGuideHomeViewController: UIViewController, UITableViewDelegate, UITab
             vc = GuideStructAndClassViewController()
         case 2:
             vc = GuidePropertiesViewController()
+        case 3:
+            vc = GuideMethodViewController()
+        case 4:
+            vc = GuideNestedTypesViewController()
             
         default: break
             
