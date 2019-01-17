@@ -62,6 +62,7 @@
 		11E6FABE21D60D6100B9C970 /* SwiftGuideHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */; };
 		11E6FAC021D60E0800B9C970 /* SwiftGuideRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */; };
 		11E6FAC221D614A700B9C970 /* GuidePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */; };
+		11F30BE721DF3CBF00ACC278 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F30BE621DF3CBF00ACC278 /* Info.plist */; };
 		11F6EC9D21D756D10043E635 /* GuideMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6EC9C21D756D10043E635 /* GuideMethodViewController.swift */; };
 		11F6EC9F21D764BE0043E635 /* RxControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6EC9E21D764BE0043E635 /* RxControlFlowViewController.swift */; };
 		11F6ECA321D76B200043E635 /* GuideNestedTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6ECA221D76B200043E635 /* GuideNestedTypesViewController.swift */; };
@@ -155,6 +156,7 @@
 		11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideHomeViewController.swift; sourceTree = "<group>"; };
 		11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideRootViewController.swift; sourceTree = "<group>"; };
 		11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePropertiesViewController.swift; sourceTree = "<group>"; };
+		11F30BE621DF3CBF00ACC278 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Applications/Charles.app/Contents/Info.plist; sourceTree = "<group>"; };
 		11F6EC9C21D756D10043E635 /* GuideMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMethodViewController.swift; sourceTree = "<group>"; };
 		11F6EC9E21D764BE0043E635 /* RxControlFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxControlFlowViewController.swift; sourceTree = "<group>"; };
 		11F6ECA221D76B200043E635 /* GuideNestedTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideNestedTypesViewController.swift; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 		11C5AC4A21770BF0001E006C /* PlaygroundForSwift */ = {
 			isa = PBXGroup;
 			children = (
+				11F30BE621DF3CBF00ACC278 /* Info.plist */,
 				11AB1BEB21CA222900038653 /* Common */,
 				11AB1BCA21C9D90D00038653 /* RxSwift */,
 				11D1FA1A21B4B53D001DAA63 /* Third */,
@@ -518,6 +521,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F30BE721DF3CBF00ACC278 /* Info.plist in Resources */,
 				11AB1BDE21C9ED0E00038653 /* catchError.png in Resources */,
 				11AB1BEF21CA2F4300038653 /* AsyncSubjectA.png in Resources */,
 				11C484BA21D71A8200F44966 /* distinctUntilChanged.png in Resources */,
