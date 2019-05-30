@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33424E7E7A651BB942E72C116266656F"
+               BlueprintIdentifier = "46E48C41E3556F8E41D231C8FD9B7471"
+               BuildableName = "RxKeyboard.framework"
                BlueprintName = "RxKeyboard"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "RxKeyboard.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

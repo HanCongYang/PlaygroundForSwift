@@ -1,15 +1,15 @@
 //
-//  ViewController.swift
+//  SwiftGuideHomeViewController.swift
 //  PlaygroundForSwift
 //
-//  Created by 李爱红 on 2018/10/17.
+//  Created by 李爱红 on 2018/12/28.
 //  Copyright © 2018年 LAH. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+class SwiftStringGuideListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
+
     let tb : UITableView = UITableView(frame: CGRect.zero)
     
     override func viewDidLoad() {
@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func viewWillAppear(_ animated: Bool) {
-
+        
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -38,13 +38,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         switch indexPath.row {
         case 0:
-            cell.textLabel?.text = "1.Swift Language Guide"
+            cell.textLabel?.text = "1.字符串截取"
         case 1:
-            cell.textLabel?.text = "2.RxSwift"
-        case 2:
-            cell.textLabel?.text = "3.Block"
-        case 3:
-            cell.textLabel?.text = "4.字符串索引"
+            cell.textLabel?.text = "2.字符串Index使用方法"
 
         default:
             cell.textLabel?.text = "null"
@@ -57,14 +53,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         var vc : UIViewController?
         switch indexPath.row {
         case 0:
-            vc = SwiftGuideHomeViewController()
+            vc = SwiftDevideViewController()
         case 1:
-            vc = RxHomeViewController()
-        case 2:
-            vc = SwiftBlockViewController()
-        case 3:
-            vc = SwiftStringGuideListViewController()
-            
+            vc = SwiftStringIndexViewController()
+        
         default: break
             
         }
@@ -74,4 +66,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
     }
+
 }

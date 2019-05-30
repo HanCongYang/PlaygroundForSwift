@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,11 @@
 		113D530221A7F3B20040381F /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D530121A7F3B20040381F /* EnumViewController.swift */; };
 		11431CEF21D4C6E600D4D393 /* RxFromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431CEE21D4C6E600D4D393 /* RxFromViewController.swift */; };
 		11431CF121D4CC4F00D4D393 /* RxTakeFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431CF021D4CC4F00D4D393 /* RxTakeFamilyViewController.swift */; };
+		11465040229E2BD10074DF07 /* SwiftBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146503F229E2BD10074DF07 /* SwiftBlockViewController.swift */; };
+		11465044229E2E670074DF07 /* SwiftStringGuideListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11465043229E2E670074DF07 /* SwiftStringGuideListViewController.swift */; };
+		11465046229E2FC80074DF07 /* SwiftDevideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11465045229E2FC80074DF07 /* SwiftDevideViewController.swift */; };
+		11465049229E4C250074DF07 /* SwiftRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11465048229E4C250074DF07 /* SwiftRangeViewController.swift */; };
+		1146504B229E5C0E0074DF07 /* SwiftStringIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146504A229E5C0E0074DF07 /* SwiftStringIndexViewController.swift */; };
 		11738C2021883629008ABC9A /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11738C1F21883629008ABC9A /* ClassViewController.swift */; };
 		1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */; };
 		11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BCC21C9D93300038653 /* RxRootViewController.swift */; };
@@ -62,7 +67,6 @@
 		11E6FABE21D60D6100B9C970 /* SwiftGuideHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */; };
 		11E6FAC021D60E0800B9C970 /* SwiftGuideRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */; };
 		11E6FAC221D614A700B9C970 /* GuidePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */; };
-		11F30BE721DF3CBF00ACC278 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F30BE621DF3CBF00ACC278 /* Info.plist */; };
 		11F6EC9D21D756D10043E635 /* GuideMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6EC9C21D756D10043E635 /* GuideMethodViewController.swift */; };
 		11F6EC9F21D764BE0043E635 /* RxControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6EC9E21D764BE0043E635 /* RxControlFlowViewController.swift */; };
 		11F6ECA321D76B200043E635 /* GuideNestedTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6ECA221D76B200043E635 /* GuideNestedTypesViewController.swift */; };
@@ -106,6 +110,11 @@
 		113D530121A7F3B20040381F /* EnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
 		11431CEE21D4C6E600D4D393 /* RxFromViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxFromViewController.swift; sourceTree = "<group>"; };
 		11431CF021D4CC4F00D4D393 /* RxTakeFamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTakeFamilyViewController.swift; sourceTree = "<group>"; };
+		1146503F229E2BD10074DF07 /* SwiftBlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBlockViewController.swift; sourceTree = "<group>"; };
+		11465043229E2E670074DF07 /* SwiftStringGuideListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStringGuideListViewController.swift; sourceTree = "<group>"; };
+		11465045229E2FC80074DF07 /* SwiftDevideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDevideViewController.swift; sourceTree = "<group>"; };
+		11465048229E4C250074DF07 /* SwiftRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRangeViewController.swift; sourceTree = "<group>"; };
+		1146504A229E5C0E0074DF07 /* SwiftStringIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStringIndexViewController.swift; sourceTree = "<group>"; };
 		11738C1F21883629008ABC9A /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 		1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWExtensionsViewController.swift; sourceTree = "<group>"; };
 		11AB1BCC21C9D93300038653 /* RxRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRootViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +165,6 @@
 		11E6FABD21D60D6100B9C970 /* SwiftGuideHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideHomeViewController.swift; sourceTree = "<group>"; };
 		11E6FABF21D60E0800B9C970 /* SwiftGuideRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideRootViewController.swift; sourceTree = "<group>"; };
 		11E6FAC121D614A700B9C970 /* GuidePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePropertiesViewController.swift; sourceTree = "<group>"; };
-		11F30BE621DF3CBF00ACC278 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Applications/Charles.app/Contents/Info.plist; sourceTree = "<group>"; };
 		11F6EC9C21D756D10043E635 /* GuideMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMethodViewController.swift; sourceTree = "<group>"; };
 		11F6EC9E21D764BE0043E635 /* RxControlFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxControlFlowViewController.swift; sourceTree = "<group>"; };
 		11F6ECA221D76B200043E635 /* GuideNestedTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideNestedTypesViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +223,39 @@
 				11264EBA21B4DBA10081E56E /* RxSwiftObservableViewController.swift */,
 			);
 			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		1146503E229E2BBC0074DF07 /* SwiftBlock */ = {
+			isa = PBXGroup;
+			children = (
+				1146503F229E2BD10074DF07 /* SwiftBlockViewController.swift */,
+			);
+			path = SwiftBlock;
+			sourceTree = "<group>";
+		};
+		11465041229E2E080074DF07 /* SwiftDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftDictionary;
+			sourceTree = "<group>";
+		};
+		11465042229E2E150074DF07 /* SwiftString */ = {
+			isa = PBXGroup;
+			children = (
+				11465043229E2E670074DF07 /* SwiftStringGuideListViewController.swift */,
+				11465045229E2FC80074DF07 /* SwiftDevideViewController.swift */,
+				1146504A229E5C0E0074DF07 /* SwiftStringIndexViewController.swift */,
+			);
+			path = SwiftString;
+			sourceTree = "<group>";
+		};
+		11465047229E344E0074DF07 /* SwiftRange */ = {
+			isa = PBXGroup;
+			children = (
+				11465048229E4C250074DF07 /* SwiftRangeViewController.swift */,
+			);
+			path = SwiftRange;
 			sourceTree = "<group>";
 		};
 		11AB1BCA21C9D90D00038653 /* RxSwift */ = {
@@ -310,7 +351,10 @@
 		11C5AC4A21770BF0001E006C /* PlaygroundForSwift */ = {
 			isa = PBXGroup;
 			children = (
-				11F30BE621DF3CBF00ACC278 /* Info.plist */,
+				11465047229E344E0074DF07 /* SwiftRange */,
+				11465042229E2E150074DF07 /* SwiftString */,
+				11465041229E2E080074DF07 /* SwiftDictionary */,
+				1146503E229E2BBC0074DF07 /* SwiftBlock */,
 				11AB1BEB21CA222900038653 /* Common */,
 				11AB1BCA21C9D90D00038653 /* RxSwift */,
 				11D1FA1A21B4B53D001DAA63 /* Third */,
@@ -521,7 +565,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F30BE721DF3CBF00ACC278 /* Info.plist in Resources */,
 				11AB1BDE21C9ED0E00038653 /* catchError.png in Resources */,
 				11AB1BEF21CA2F4300038653 /* AsyncSubjectA.png in Resources */,
 				11C484BA21D71A8200F44966 /* distinctUntilChanged.png in Resources */,
@@ -562,41 +605,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/FDStackView/FDStackView.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDStackView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlaygroundForSwift/Pods-PlaygroundForSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		10B670A0F6FF6CB7181D31DE /* [CP] Check Pods Manifest.lock */ = {
@@ -660,12 +678,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11465040229E2BD10074DF07 /* SwiftBlockViewController.swift in Sources */,
 				11E6FAC021D60E0800B9C970 /* SwiftGuideRootViewController.swift in Sources */,
+				1146504B229E5C0E0074DF07 /* SwiftStringIndexViewController.swift in Sources */,
 				112D89BB21D512040067BF3E /* RxRetryViewController.swift in Sources */,
 				11C5AC87217756CB001E006C /* WhereViewController.swift in Sources */,
 				11AB1BED21CA223A00038653 /* ScaledHeightImageView.swift in Sources */,
 				11C484B821D71A0F00F44966 /* RxDistinctUntilChangedViewController.swift in Sources */,
 				113D530221A7F3B20040381F /* EnumViewController.swift in Sources */,
+				11465046229E2FC80074DF07 /* SwiftDevideViewController.swift in Sources */,
 				11AB1BDC21C9EC4A00038653 /* RxCatchErrorViewController.swift in Sources */,
 				11AB1BFD21CA3B4C00038653 /* BaseViewController.swift in Sources */,
 				11AB1BFB21CA3B3800038653 /* DocCollectionTypesViewController.swift in Sources */,
@@ -690,12 +711,14 @@
 				11C484B621D716F400F44966 /* RxDoViewController.swift in Sources */,
 				111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */,
 				11C484B221D70EF200F44966 /* RxShareReplayViewController.swift in Sources */,
+				11465049229E4C250074DF07 /* SwiftRangeViewController.swift in Sources */,
 				11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */,
 				11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */,
 				11C5AC8221771908001E006C /* AccessControlViewController.swift in Sources */,
 				11C5AC8421771DCF001E006C /* ProtocolsViewController.swift in Sources */,
 				111CC6C121CCD45700ACAFC6 /* MyService.swift in Sources */,
 				11AB1BF521CA31CA00038653 /* RxVariableViewController.swift in Sources */,
+				11465044229E2E670074DF07 /* SwiftStringGuideListViewController.swift in Sources */,
 				11AB1BF321CA2FB300038653 /* RxAsyncSubject ViewController.swift in Sources */,
 				11D1FA1C21B4B54C001DAA63 /* SqliteViewController.swift in Sources */,
 				11C5AC4C21770BF0001E006C /* AppDelegate.swift in Sources */,
