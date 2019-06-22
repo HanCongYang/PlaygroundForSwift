@@ -1,4 +1,4 @@
-target 'PlaygroundForSwift' do
+target 'ManchurianTiger' do
 
   use_frameworks!
 
@@ -13,13 +13,6 @@ target 'PlaygroundForSwift' do
   pod 'AlamofireObjectMapper'
   pod 'Moya-ObjectMapper/RxSwift'
   pod 'RxKeyboard'
-  
-  target 'PlaygroundForSwiftTests' do
-    inherit! :search_paths
-  end
-
-  target 'PlaygroundForSwiftUITests' do
-    inherit! :search_paths
-  end
+  pod 'SwiftyJSON'
 
 end

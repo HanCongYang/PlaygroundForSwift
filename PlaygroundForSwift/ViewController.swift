@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -20,6 +21,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tb.frame = self.view.frame
         tb.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         self.view.addSubview(tb)
+        
+        var temp = 10;
+        add(a: &temp)
+        print(temp)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -74,4 +80,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
     }
+    
+//    var temp = 10
+    func add( a: inout Int){
+        a += 10
+    }
+    
+    func otherAdd(a: Int){
+    }
+
+//    add(&temp)
+//    temp // 11
 }
