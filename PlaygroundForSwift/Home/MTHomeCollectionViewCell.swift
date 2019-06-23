@@ -10,9 +10,16 @@ import UIKit
 
 class MTHomeCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var container: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.container.layer.cornerRadius = 4.0
+        self.container.layer.masksToBounds = true
+        
+        
     }
 
 }

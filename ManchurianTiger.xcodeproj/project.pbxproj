@@ -24,6 +24,7 @@
 		11465049229E4C250074DF07 /* SwiftRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11465048229E4C250074DF07 /* SwiftRangeViewController.swift */; };
 		1146504B229E5C0E0074DF07 /* SwiftStringIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146504A229E5C0E0074DF07 /* SwiftStringIndexViewController.swift */; };
 		11738C2021883629008ABC9A /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11738C1F21883629008ABC9A /* ClassViewController.swift */; };
+		118BCDED22BDCDB9002CADEC /* MTCollectionCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BCDEC22BDCDB9002CADEC /* MTCollectionCellModel.swift */; };
 		1197E58021BF5F1E00C3C943 /* SWExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */; };
 		11AB1BCD21C9D93300038653 /* RxRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BCC21C9D93300038653 /* RxRootViewController.swift */; };
 		11AB1BCF21C9DADF00038653 /* RxHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB1BCE21C9DADF00038653 /* RxHomeViewController.swift */; };
@@ -98,6 +99,7 @@
 		11465048229E4C250074DF07 /* SwiftRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRangeViewController.swift; sourceTree = "<group>"; };
 		1146504A229E5C0E0074DF07 /* SwiftStringIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStringIndexViewController.swift; sourceTree = "<group>"; };
 		11738C1F21883629008ABC9A /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		118BCDEC22BDCDB9002CADEC /* MTCollectionCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTCollectionCellModel.swift; sourceTree = "<group>"; };
 		1197E57F21BF5F1E00C3C943 /* SWExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWExtensionsViewController.swift; sourceTree = "<group>"; };
 		11AB1BCC21C9D93300038653 /* RxRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRootViewController.swift; sourceTree = "<group>"; };
 		11AB1BCE21C9DADF00038653 /* RxHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxHomeViewController.swift; sourceTree = "<group>"; };
@@ -223,6 +225,14 @@
 			path = SwiftRange;
 			sourceTree = "<group>";
 		};
+		118BCDEB22BDCDA5002CADEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				118BCDEC22BDCDB9002CADEC /* MTCollectionCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		11AB1BCA21C9D90D00038653 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +348,7 @@
 		11C5AC4A21770BF0001E006C /* PlaygroundForSwift */ = {
 			isa = PBXGroup;
 			children = (
+				118BCDEB22BDCDA5002CADEC /* Model */,
 				11C3967F22BCD51200F75079 /* NetUtils */,
 				11C3967C22BCD08B00F75079 /* SwiftJSON */,
 				11C3967422BCC56B00F75079 /* Home */,
@@ -588,6 +599,7 @@
 				11C484B221D70EF200F44966 /* RxShareReplayViewController.swift in Sources */,
 				11465049229E4C250074DF07 /* SwiftRangeViewController.swift in Sources */,
 				11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */,
+				118BCDED22BDCDB9002CADEC /* MTCollectionCellModel.swift in Sources */,
 				11C5AC4E21770BF0001E006C /* ViewController.swift in Sources */,
 				11C5AC8221771908001E006C /* AccessControlViewController.swift in Sources */,
 				11C3967722BCCBD200F75079 /* MTHomeViewController.swift in Sources */,
