@@ -21,7 +21,7 @@
                     <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI3-Ph-IJk">
                         <rect key="frame" x="10" y="10" width="271" height="191"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gallery-view" translatesAutoresizingMaskIntoConstraints="NO" id="jdP-bx-75e">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jdP-bx-75e">
                                 <rect key="frame" x="113.5" y="20" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Plr-65-4U9"/>
@@ -56,12 +56,10 @@ Label</string>
             <size key="customSize" width="291" height="211"/>
             <connections>
                 <outlet property="container" destination="vI3-Ph-IJk" id="090-xM-Oeh"/>
+                <outlet property="icon" destination="jdP-bx-75e" id="Xsw-3F-ELZ"/>
                 <outlet property="titleLabel" destination="ev7-7e-sId" id="GUQ-8U-8SV"/>
             </connections>
             <point key="canvasLocation" x="71.739130434782609" y="107.47767857142857"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="gallery-view" width="60" height="60"/>
-    </resources>
 </document>

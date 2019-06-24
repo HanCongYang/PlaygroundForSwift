@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		111645582182A3E6006A507E /* CurryingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111645572182A3E6006A507E /* CurryingViewController.swift */; };
+		11191C4C22C0529700CA594D /* MTDictionaryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11191C4B22C0529700CA594D /* MTDictionaryDemoViewController.swift */; };
 		111CC6BB21CCCBB900ACAFC6 /* RxSchedulersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CC6BA21CCCBB900ACAFC6 /* RxSchedulersViewController.swift */; };
 		111CC6BD21CCCD7800ACAFC6 /* Scheduler.png in Resources */ = {isa = PBXBuildFile; fileRef = 111CC6BC21CCCD7700ACAFC6 /* Scheduler.png */; };
 		111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */; };
@@ -83,6 +84,7 @@
 		06F0A1297DE00C5DA97AF22D /* Pods_PlaygroundForSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaygroundForSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F1C3A032BCA6DA2644B784 /* Pods-PlaygroundForSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundForSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaygroundForSwiftUITests/Pods-PlaygroundForSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		111645572182A3E6006A507E /* CurryingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurryingViewController.swift; sourceTree = "<group>"; };
+		11191C4B22C0529700CA594D /* MTDictionaryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MTDictionaryDemoViewController.swift; path = PlaygroundForSwift/Model/MTDictionaryDemoViewController.swift; sourceTree = SOURCE_ROOT; };
 		111CC6BA21CCCBB900ACAFC6 /* RxSchedulersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSchedulersViewController.swift; sourceTree = "<group>"; };
 		111CC6BC21CCCD7700ACAFC6 /* Scheduler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scheduler.png; sourceTree = "<group>"; };
 		111CC6BE21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftNetworkViewController.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 		11465041229E2E080074DF07 /* SwiftDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				11191C4B22C0529700CA594D /* MTDictionaryDemoViewController.swift */,
 			);
 			path = SwiftDictionary;
 			sourceTree = "<group>";
@@ -596,6 +599,7 @@
 				11C3968122BCD52100F75079 /* NetUtils.swift in Sources */,
 				11C484B621D716F400F44966 /* RxDoViewController.swift in Sources */,
 				111CC6BF21CCD2A200ACAFC6 /* RxSwiftNetworkViewController.swift in Sources */,
+				11191C4C22C0529700CA594D /* MTDictionaryDemoViewController.swift in Sources */,
 				11C484B221D70EF200F44966 /* RxShareReplayViewController.swift in Sources */,
 				11465049229E4C250074DF07 /* SwiftRangeViewController.swift in Sources */,
 				11AB1BE521CA1CF700038653 /* RxBehaviorSubjectViewController.swift in Sources */,

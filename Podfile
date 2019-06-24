@@ -14,5 +14,6 @@ target 'ManchurianTiger' do
   pod 'Moya-ObjectMapper/RxSwift'
   pod 'RxKeyboard'
   pod 'SwiftyJSON'
+  pod 'RAMAnimatedTabBarController'
 
 end

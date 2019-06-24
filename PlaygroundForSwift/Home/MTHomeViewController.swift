@@ -22,18 +22,18 @@ class MTHomeViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "UICollectionView小解"
+        
+        createDataSource()
+        
         self.view.backgroundColor = UIColor.white
-        // 初始化
+        
+        
         let layout = UICollectionViewFlowLayout.init()
         layout.itemSize = CGSize(width: (UIScreen.main.bounds.width - 10) / 3.0, height: (UIScreen.main.bounds.width - 10) / 3.0)
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         layout.scrollDirection = .vertical
         layout.sectionInset = UIEdgeInsets.init(top: 5, left: 5, bottom: 5, right: 5)
-        // 设置分区头视图和尾视图宽高
-        layout.headerReferenceSize = CGSize.init(width: ScreenWidth, height: 80)
-        layout.footerReferenceSize = CGSize.init(width: ScreenWidth, height: 80)
         
         collectionView = UICollectionView.init(frame: UIScreen.main.bounds, collectionViewLayout: layout)
         collectionView?.backgroundColor = UIColor.white
@@ -42,11 +42,6 @@ class MTHomeViewController: UIViewController, UICollectionViewDelegate, UICollec
         self.view.addSubview(collectionView!)
         self.view.backgroundColor = UIColor.white;
         
-        dataSource = []
-        let m = MTCollectionCellModel()
-        m.title = "Swift取地址符"
-        dataSource?.add(m)
-        // 注册cell
         collectionView?.register(UINib.init(nibName: "MTHomeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: Identifier)
 
     }
@@ -65,11 +60,21 @@ class MTHomeViewController: UIViewController, UICollectionViewDelegate, UICollec
         
         let cell: MTHomeCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: Identifier, for: indexPath) as! MTHomeCollectionViewCell
         cell.titleLabel.text = m.title
+        cell.icon.image = UIImage(named: m.iconName!)
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row)
+
+        switch indexPath.row {
+        case 0:
+            let vc = MTDictionaryDemoViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        default: break
+            
+        }
+        
+        
     }
     
     func armColor()->UIColor{
@@ -80,8 +85,9 @@ class MTHomeViewController: UIViewController, UICollectionViewDelegate, UICollec
     }
     
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func createDataSource() {
+        
+        dataSource = []
+        dataSource?.add(MTCollectionCellModel(iconName: "爆米花", title: "字典操作"))
     }
 }

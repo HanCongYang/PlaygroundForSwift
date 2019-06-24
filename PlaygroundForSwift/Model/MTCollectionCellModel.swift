@@ -10,6 +10,12 @@ import UIKit
 
 class MTCollectionCellModel: NSObject {
     
+    init(iconName: String, title: String) {
+     
+        self.iconName = iconName
+        self.title = title
+    }
+    
     var iconName: String?
     var title: String?
 

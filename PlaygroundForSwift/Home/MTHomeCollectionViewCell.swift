@@ -12,6 +12,7 @@ class MTHomeCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var container: UIView!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var icon: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
