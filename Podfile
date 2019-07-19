@@ -15,5 +15,6 @@ target 'ManchurianTiger' do
   pod 'RxKeyboard'
   pod 'SwiftyJSON'
   pod 'RAMAnimatedTabBarController'
+  pod 'PromiseKit'
 
 end

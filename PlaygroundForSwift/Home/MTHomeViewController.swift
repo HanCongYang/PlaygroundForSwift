@@ -27,7 +27,6 @@ class MTHomeViewController: UIViewController, UICollectionViewDelegate, UICollec
         
         self.view.backgroundColor = UIColor.white
         
-        
         let layout = UICollectionViewFlowLayout.init()
         layout.itemSize = CGSize(width: (UIScreen.main.bounds.width - 10) / 3.0, height: (UIScreen.main.bounds.width - 10) / 3.0)
         layout.minimumLineSpacing = 0
@@ -70,6 +69,19 @@ class MTHomeViewController: UIViewController, UICollectionViewDelegate, UICollec
         case 0:
             let vc = MTDictionaryDemoViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            let vc = SwiftTupleDemoViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = SwiftPromiseDemoViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = SwiftUseObjectiveCMethodViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = SwiftEscapeViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
         default: break
             
         }
@@ -89,5 +101,12 @@ class MTHomeViewController: UIViewController, UICollectionViewDelegate, UICollec
         
         dataSource = []
         dataSource?.add(MTCollectionCellModel(iconName: "爆米花", title: "字典操作"))
+        dataSource?.add(MTCollectionCellModel(iconName: "秤", title: "元组"))
+        dataSource?.add(MTCollectionCellModel(iconName: "蛋糕", title: "Promise"))
+        dataSource?.add(MTCollectionCellModel(iconName: "啤酒", title: "Swift使用OC方法"))
+        dataSource?.add(MTCollectionCellModel(iconName: "柠檬茶", title: "逃逸闭包\n非逃逸闭包"))
+
+        
     }
+    
 }

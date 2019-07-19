@@ -20,6 +20,15 @@ PODS:
     - Moya/Core
     - RxSwift (~> 4.0)
   - ObjectMapper (3.5.0)
+  - PromiseKit (6.9.0):
+    - PromiseKit/CorePromise (= 6.9.0)
+    - PromiseKit/Foundation (= 6.9.0)
+    - PromiseKit/UIKit (= 6.9.0)
+  - PromiseKit/CorePromise (6.9.0)
+  - PromiseKit/Foundation (6.9.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.9.0):
+    - PromiseKit/CorePromise
   - RAMAnimatedTabBarController (5.0.1)
   - Result (4.1.0)
   - RxCocoa (4.5.0):
@@ -41,6 +50,7 @@ DEPENDENCIES:
   - Moya
   - Moya-ObjectMapper/RxSwift
   - Moya/RxSwift
+  - PromiseKit
   - RAMAnimatedTabBarController
   - RxCocoa (~> 4.0)
   - RxKeyboard
@@ -57,6 +67,7 @@ SPEC REPOS:
     - Moya
     - Moya-ObjectMapper
     - ObjectMapper
+    - PromiseKit
     - RAMAnimatedTabBarController
     - Result
     - RxCocoa
@@ -73,6 +84,7 @@ SPEC CHECKSUMS:
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   Moya-ObjectMapper: c514b5eafcfd5e260f85f7a5bf66895a217e2b37
   ObjectMapper: 078b564ed25c6578b62588e306bf1da3924636d4
+  PromiseKit: 97397236f9e9c443d5b70a941d49cad25160af7a
   RAMAnimatedTabBarController: ec36fba2fa4679fd36db55098e3477fe9bd79f52
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
@@ -82,6 +94,6 @@ SPEC CHECKSUMS:
   SQLite.swift: 46d890be8601964454bd3392527f863d1b802d45
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 5dfbf8a7337bfa56ac18465a0131018d5bbb3c16
+PODFILE CHECKSUM: 9a6a98fa45131d2304531a394a862d78f1758a4e
 
 COCOAPODS: 1.7.0
